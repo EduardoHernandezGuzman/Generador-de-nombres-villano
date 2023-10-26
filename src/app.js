@@ -12,7 +12,12 @@ window.onload = function() {
     "El vampiro",
     "El zombi",
     "El chupacabras",
-    "El asaltador"
+    "El asaltador",
+    "El devorador",
+    "El espíritu",
+    "El espectro",
+    "El intruso",
+    "El mutante"
   ];
 
   let adjective = [
@@ -21,11 +26,16 @@ window.onload = function() {
     "horroroso",
     "maligno",
     "sobrenatural",
-    "deborador",
+    "aterrador",
     "horripilante",
     "macabro",
     "inquietante",
-    "sobrecogedor"
+    "sobrecogedor",
+    "espeluznante",
+    "peligroso",
+    "terrible",
+    "atroz",
+    "caótico"
   ];
 
   let noun2 = [
@@ -38,7 +48,12 @@ window.onload = function() {
     "del averno",
     "del oscuro pasillo",
     "del sótano húmedo",
-    "del universo paralelo"
+    "del universo paralelo",
+    "de la casa embrujada",
+    "de la mansión abandonada",
+    "de la montaña embrujada",
+    "de la dimensión desconocida",
+    "del mundo de los sueños"
   ];
   function randomName() {
     let randomNoun1 = noun1[Math.floor(Math.random() * noun1.length)];
