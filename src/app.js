@@ -55,7 +55,7 @@ window.onload = function() {
     "de la dimensión desconocida",
     "del mundo de los sueños"
   ];
-  function randomName() {
+  function randomVillainName() {
     let randomNoun1 = noun1[Math.floor(Math.random() * noun1.length)];
     let randomAdjective =
       adjective[Math.floor(Math.random() * adjective.length)];
@@ -63,7 +63,7 @@ window.onload = function() {
 
     return `${randomNoun1} ${randomAdjective} ${randomNoun2}`;
   }
-  document.getElementById("yourVillainName").textContent = randomName();
+  document.getElementById("yourVillainName").textContent = randomVillainName();
   document.getElementById("heroOrVillain").textContent =
     "Tu nombre de villano es";
 };
