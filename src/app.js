@@ -63,4 +63,7 @@ window.onload = function() {
 
     return `${randomNoun1} ${randomAdjective} ${randomNoun2}`;
   }
+  document.getElementById("yourVillainName").textContent = randomName();
+  document.getElementById("heroOrVillain").textContent =
+    "Tu nombre de villano es";
 };
