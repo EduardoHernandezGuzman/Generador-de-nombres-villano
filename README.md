@@ -1,10 +1,19 @@
 # Generador de nombres de villano de EduardoHernandezGuzman
+Este es un pequeño proyecto que he desarrollado mientras estudio en 4GEEKS.
 
-Pequeña web que genera nombres de villanos de forma aleatoria además de la descripción de los mísmos.
-(Web realizada mientras estudio en 4GEEKSACADEMY)
+## Un poco de información
+Crea al instante nombres malévolos y emocionantes para tus historias, juegos de rol o simplemente para divertirte. ¡Explora la diversión de la villanía con un clic! 
 
+## ¿Cómo puedo utilizar el generador de nombres de villano?
 
+Utilizando los siguientes comandos:
 
-## Agradecimientos
+```bash
+$ npm install
+```
+```bash
+$ npm run start
+```
+#### Agradecimientos
 
 A 4GEEKSACADEMY por su formación.
