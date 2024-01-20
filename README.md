@@ -14,6 +14,9 @@ $ npm install
 ```bash
 $ npm run start
 ```
+## Enlaces
+ [Vesión 2 del proyecto](https://github.com/EduardoHernandezGuzman/Generador-de-nombres-de-heroe-y-villano).
+ 
 #### Agradecimientos
 
 A 4GEEKSACADEMY por su formación.
